@@ -19,6 +19,14 @@ else if(randomNumber1>randomNumber2){
     document.getElementsByClassName("refresh")[0].innerHTML="tie refresh it!";
 }
 
+//button refresh
+const refreshButton = document.querySelector('.refresh-button');
+
+      const refreshPage = () => {   
+      location.reload();
+      }
+
+      refreshButton.addEventListener('click', refreshPage)
 
 
 

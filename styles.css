@@ -70,3 +70,18 @@ footer {
 /* .playerhide2{
   visibility: hidden;
 } */ 
+
+.refresh-button{
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: #4ECCA3;
+  border-radius: 5px;
+  border-style: none;
+  transition-duration: 1ms;
+  font-family:sans-serif ;
+  font-weight: bolder;
+
+}
+.refresh-button:hover{
+  background-color: #EEEEEE;
+}
